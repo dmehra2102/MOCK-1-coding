@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main-container {
+	border: 2px solid black;
+	width: 98vw;
+	height: 98vh;
+	margin: auto;
+	text-align: center;
+}
+
+.main-heading{
+	display: inline-block;
+	align-items: center;
+	font-size: 2.3rem;
+	text-decoration: underline;
+}
+
+#input-box-holder-div{
+	width: 40.3em;
+	display: flex;
+	justify-content: space-between;
+	height: 3em;
+	border: 1px solid rgb(194, 186, 186);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin: auto;
+}
+.input-box{
+	width: 30em;
+	height: 2.3em;
+	font-size: large;
+	padding-left: 0.8em;
+	outline: none;
+	border: none;
+}
+.countries-container-div{
+	max-width: 38em;
+	border: 2px solid rgb(194, 184, 184);
+	padding: 0 1em;
+	margin: auto;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	max-height: 52vh;
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	overflow-y: scroll;
+	gap: 1vh;
+}
+
+.countries-container-div::-webkit-scrollbar{
+	display: none;
+}
+
+.span-canacel-img{
+	width: 2.3em;
+	height: 2em;
+	display: block;
+	margin-top: 8px;
+}
+
+.span-canacel-img > img {
+	width: 98%;
+	height: 94%;
+}
+
+.single-country-card{
+	border: 1px solid black;
+	width: 98%;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: left;
+	padding-left: 1vw;
+	border-radius: 3px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.single-country-card:hover{
+	cursor: pointer;
+}
+.hide {
+	display: none;
+}
